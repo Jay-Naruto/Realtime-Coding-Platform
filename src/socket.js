@@ -9,5 +9,5 @@ export const initSocket = async () => {
         transports: ['websocket']
     };
 
-    return io("/", options);
+    return io(process.env.REACT_APP_BACKEND, options);
 };
