@@ -1,0 +1,17 @@
+* {
+    font-variant-ligatures: none;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #1c1e29;
+}
+.CodeMirror{
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%) !important;
+
+}
+.aside{
+    background-color: black !important;
+}
